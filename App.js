@@ -10,7 +10,7 @@ export default function App() {
 
   return (
      <NavigationContainer>
-         <Tab.Navigator initialRouteName="Main">
+         <Tab.Navigator initialRouteName="Main" >
              <Tab.Screen name="Main" component={MainScreen}
                          options={{
                              tabBarIcon: ({focused, color, size}) => (
